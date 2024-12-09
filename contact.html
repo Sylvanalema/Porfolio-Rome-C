@@ -32,7 +32,7 @@
     <div class="container mt-5">
         <h2 class="text-center mb-4">Formulaire de Contact</h2>
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-12 col-md-8"> <!-- Responsivité: col-12 pour petits écrans, col-md-8 pour écrans moyens -->
                 <!-- Formulaire -->
                 <form id="contactForm" class="p-4 border rounded shadow-sm bg-light">
                     <div class="mb-3">
@@ -40,35 +40,34 @@
                         <input type="text" class="form-control" id="firstName" required maxlength="20" placeholder="Entrez votre prénom">
                         <div class="invalid-feedback" id="firstNameError"></div>
                     </div>
-
+    
                     <div class="mb-3">
                         <label for="lastName" class="form-label">Nom</label>
                         <input type="text" class="form-control" id="lastName" required maxlength="50" placeholder="Entrez votre nom">
                         <div class="invalid-feedback" id="lastNameError"></div>
                     </div>
-
+    
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" required placeholder="Entrez votre email">
                         <div class="invalid-feedback" id="emailError"></div>
                     </div>
-
+    
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="4" required placeholder="Écrivez votre message"></textarea>
                         <div class="invalid-feedback" id="messageError"></div>
                     </div>
-
+    
                     <button type="submit" class="btn btn-primary w-100">Envoyer</button>
                 </form>
-
+    
                 <!-- Message de confirmation / erreur -->
                 <div id="formResponse" class="mt-4"></div>
             </div>
         </div>
     </div>
-
-
+    
     <footer class="footer">
         <div class="footer-content">
             <p>Développeur Web | Designer | Freelance</p>
