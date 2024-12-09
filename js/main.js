@@ -47,7 +47,7 @@ $(document).ready(function () {
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Projet 4</h5>
-                                <p class="card-text">Description de mon quatrième projet.</p>
+                                <p class="card-text">Pour ce projet, j'ai développé une page web responsive pour un portfolio d'artistes peintres. J'ai d'abord utilisé Flexbox pour structurer la page de manière fluide et responsive, en intégrant des Media Queries pour garantir une bonne expérience sur mobile. Ensuite, j'ai recréé la même page avec Bootstrap, en utilisant ses classes pour gérer le positionnement et le responsive, tout en transformant le menu en Menu Burger pour les résolutions mobiles. Enfin, j'ai ajouté de l'interactivité avec JavaScript, permettant une navigation dynamique entre les galeries d'œuvres, avec des animations mettant en valeur l'élément actif, grâce à un fond marron foncé et un texte orange.</p>
                                 <a href="assets/videos/les-artistes-peintres.mp4" target="_blank">Voir mon quatrième projet</a>  <i class="fa-solid fa-video" style="color: #B197FC;"></i>
                             </div>
                         </div>
