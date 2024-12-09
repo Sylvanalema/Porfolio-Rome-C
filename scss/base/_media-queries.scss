@@ -1,0 +1,19 @@
+@media (max-width: $tablet) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: $mobile) {
+    .container {
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video-background video {
+      width: 100vw;  /* S'assurer que la vidéo prend toute la largeur sur mobile */
+      height: 100vh; /* S'assurer que la vidéo prend toute la hauteur sur mobile */
+      object-fit: cover; /* Garde le ratio d'aspect sans déformation */
+    }
+  }

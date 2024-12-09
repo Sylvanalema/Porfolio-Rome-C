@@ -1,0 +1,17 @@
+.card {
+    background-color: #1102023f; 
+    border: 1px solid #1d1d0b63;
+    border-radius: 5px;
+    padding: $padding-medium;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: $padding-medium 0;
+  
+    h3 {
+      color: $primary-color;
+    }
+  
+    p {
+      color: $text-color;
+    }
+  }
+  
