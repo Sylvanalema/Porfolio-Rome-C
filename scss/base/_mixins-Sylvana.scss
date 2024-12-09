@@ -10,4 +10,9 @@
     transition: $property $duration ease-in-out;
   }
   
-  
+  @font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/Tinos-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

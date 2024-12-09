@@ -1,10 +1,10 @@
 
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Tinos';
+  src: url('/font/Tinos-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 /* Conteneur de la vidéo */
 .video-background {
@@ -29,15 +29,12 @@
 }
 
 body {
-
-  color: black;
-  font-family: "Arial, sans-serif";
-  line-height: 1.6;
-  margin: 0; /* Supprime les marges */
-    padding: 0; /* Supprime les espacements */
-    height: 100%; /* Hauteur complète */
-  
+  font-family: 'Tinos', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* Conteneur navbar */
 header {
   
@@ -72,7 +69,7 @@ header .navbar .nav-links li a:hover {
 footer {
   color: white;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   padding: 10px 0;
   position: relative;
   bottom: 0;
@@ -118,12 +115,19 @@ footer .social-links a:hover {
 }
 .card h5 {
   color: white;
+  font-size: 20px;
   
 }
 .card p{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
+}
+
+.card a {
+  color: #6c16ac;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 .card a:hover {
   color: rgb(240, 141, 210);
