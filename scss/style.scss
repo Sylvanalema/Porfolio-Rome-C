@@ -1,20 +1,20 @@
 // Import des bases
-@use 'base/_variables';
-@use 'base/_reset';
-@use 'base/_mixins';
-@use 'base/media-queries';
+@use 'base/variables' as *;
+@use 'base/reset' as *;
+@use 'base/mixins' as *;
+@use 'base/media-queries' as *;
 
 // Import des layouts
-@use 'layout/header';
-@use 'layout/footer';
-@use 'layout/grid';
+@use 'layout/header' as *;
+@use 'layout/footer' as *;
+@use 'layout/grid'   as *;
 
 // Import des composants
-@use 'components/cards';
-@use 'components/buttons';
-@use 'components/forms';
+@use 'components/cards' as *;
+@use 'components/buttons' as *;
+@use 'components/forms' as *;
 
 // Import des pages spécifiques
-@use 'pages/home';
-@use 'pages/projects';
-@use 'pages/contact';
+@use 'pages/home' as *;
+@use 'pages/projects' as *;
+@use 'pages/contact' as *;

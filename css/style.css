@@ -1,0 +1,356 @@
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Conteneur de la vidéo */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Place la vidéo derrière le contenu principal */
+}
+
+/* Vidéo en arrière-plan */
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Remplit tout l'écran sans déformation */
+  transform: translate(-50%, -50%);
+}
+
+body {
+
+  color: black;
+  font-family: "Arial, sans-serif";
+  line-height: 1.6;
+  margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime les espacements */
+    height: 100%; /* Hauteur complète */
+  
+}
+/* Conteneur navbar */
+header {
+  
+  color: white;
+  padding: 20px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logoc {
+  width: 100px;
+  height: auto;
+}
+header .navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+header .navbar .nav-links li {
+  margin: 0 10px;
+}
+header .navbar .nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+header .navbar .nav-links li a:hover {
+  color: #6c16ac;
+}
+/*footer*/
+footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer .social-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+footer .social-links a:hover {
+  color: #6c16ac;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #1102023f; 
+  border: 1px solid #1d1d0b63; 
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  margin: 20px 0;
+}
+.card h1, h2, h3 {
+  color: #6c16ac;
+  text-align: center;
+  font-size: 20px;
+ 
+}
+.card h5 {
+  color: white;
+  
+}
+.card p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.card a:hover {
+  color: rgb(240, 141, 210);
+  transition: color 0.3s;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9c27b0;;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+}
+.btn:hover {
+  background-color: #8b3375;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form input,
+.form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form button {
+  background-color: #e382d8;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.form button:hover {
+  background-color: #333;
+}
+
+#presentation {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+#presentation .flip-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#projets {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+#projets .projets-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+#projets .projets-container .projet {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#projets .projets-container .projet img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: white;
+  margin-left: 15px;
+  
+}	
+/*mentions légales*/
+.legal-notice h2{
+  text-align: left;
+}
+
+.legal-notice h1{
+  text-align: center;
+} 
+.legal-notice p{
+  text-align: justify;
+  
+
+}
+/*contact*/
+#contact {
+  background-color: #f4f4f4;
+  padding: 40px;
+}  
+#contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#contact .contact-form input,
+#contact .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#contact .contact-form button {
+  background-color: #e382d8;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#contact .contact-form button:hover {
+  background-color: #333;
+}/*# sourceMappingURL=main.css.map */
+
+
+
+/* Masquer toutes les sections au départ */
+#realisations, #cv {
+  display: none;
+}
+
+/* Le conteneur dynamique est visible */
+#dynamic-content {
+  display: block;
+  visibility: visible;
+}
+
+/* Assurer que le reste du contenu soit caché */
+#home {
+  display: block;
+}
+
+/* Personnalisation du formulaire */
+/* Style du formulaire */
+#contactForm {
+  background-color: rgba(249, 249, 249, 0.418); /* Fond gris clair avec transparence */
+  border-radius: 8px; /* Coins arrondis */
+  padding: 30px; /* Espacement interne */
+  max-width: 600px; /* Limiter la largeur maximale */
+  width: 100%; /* Prendre toute la largeur possible tout en respectant la largeur maximale */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère autour du formulaire */
+  transition: all 0.3s ease; /* Animation pour les interactions */
+}
+
+/* Style des labels (étiquettes des champs) */
+#contactForm .form-label {
+  font-weight: bold;
+  color: #333; /* Couleur sombre pour un bon contraste */
+  margin-bottom: 5px; /* Espacement entre le label et le champ */
+}
+
+/* Style des champs de saisie */
+#contactForm .form-control {
+  border-radius: 5px; /* Coins arrondis pour les champs */
+  padding: 12px; /* Plus d'espace à l'intérieur des champs */
+  width: 100%; /* Prendre toute la largeur disponible */
+  margin-bottom: 15px; /* Espacement entre les champs */
+  border: 1px solid #ccc; /* Bordure subtile pour chaque champ */
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition fluide lors de l'interaction */
+}
+
+/* Effet au focus sur les champs */
+#contactForm .form-control:focus {
+  border-color: #6a1b9a; /* Changer la couleur de la bordure au focus */
+  box-shadow: 0 0 5px rgba(106, 27, 154, 0.5); /* Légère ombre pour l'input focus */
+  outline: none; /* Retirer le contour par défaut */
+}
+
+/* Style du message de réponse (confirmation ou erreur) */
+#formResponse {
+  font-size: 1.1em;
+  text-align: center;
+  border-radius: 5px; /* Coins arrondis pour les messages */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Style des alertes (confirmation ou erreur) */
+#formResponse .alert {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff; /* Texte blanc */
+  margin: 0;
+}
+
+/* Alertes de succès */
+#formResponse .alert-success {
+  background-color: #4caf50; /* Vert pour les succès */
+}
+
+/* Alertes d'erreur */
+#formResponse .alert-danger {
+  background-color: #f44336; /* Rouge pour les erreurs */
+}
+
+/* Bouton Envoyer */
+#contactForm .btn {
+  background-color: #6a1b9a; /* Couleur du fond */
+  color: white; /* Texte blanc */
+  padding: 12px 25px; /* Taille du bouton */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 1.1em;
+  cursor: pointer; /* Changer le curseur pour indiquer l'interaction */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol du bouton */
+#contactForm .btn:hover {
+  background-color: #9c27b0; /* Couleur plus claire au survol */
+  transform: scale(1.05); /* Légère animation d'agrandissement */
+}
