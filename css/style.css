@@ -79,34 +79,6 @@ header .navbar .nav-links li a:hover {
   color: #6c16ac;
 }
 
-/* Footer */
-footer {
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 10px 0;
-  width: 100%;
-  
-  margin-top: auto;
-}
-
-footer .social-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-footer .social-links a {
-  text-decoration: none;
-  color: white;
-  margin: 0 10px;
-  font-size: 1.2em;
-  transition: color 0.3s;
-}
-
-footer .social-links a:hover {
-  color: #6c16ac;
-}
 
 .grid {
   display: grid;
@@ -332,6 +304,11 @@ a, button {
 .legal-notice h1 {
   text-align: center;
 }
+main {
+  background-color: #1102023f;
+  color: white;
+  padding: 20px;
+}
 
 .legal-notice h2 {
   text-align: left;
@@ -347,6 +324,34 @@ li {
   color: white;
   margin-left: 15px;
 }
+/* Footer */
+footer {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  
+  margin-top: auto;
+}
+
+footer .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+  color: #6c16ac;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -359,7 +364,7 @@ li {
     flex-direction: column;
     align-items: center;
   }
-
+  
   .nav-links li {
     margin: 10px 0;
   }
