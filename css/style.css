@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Tinos';
-  src: url('/font/Tinos-Regular.ttf') format('truetype');
+  font-family: 'fa-v4compatibility';
+  src: url('frameworks/webfonts/fa-v4compatibility.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,7 +28,7 @@
 }
 
 body {
-  font-family: 'Tinos', sans-serif;
+  font-family: 'fa-v4compatibility';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -140,7 +140,6 @@ h2, h3 {
 
 .card p {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -338,7 +337,6 @@ h2, h3 {
 
 /* Liens de la navbar et footer */
 li {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: white;
   margin-left: 15px;

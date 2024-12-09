@@ -21,7 +21,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 1</h5>
                                 <p class="card-text">Dans le cadre de ce projet, j'ai conçu sur Figma le wireframe d'un site fictif. Ce prototype comprend une page de connexion dédiée aux clients, une page de contact, une page présentant les produits, ainsi qu'une interface interne destinée à la gestion des produits</p>
-                                <a href="assets/img/projet1.jpg" target="_blank">Voir mon premier projet</a>
+                                <a href="assets/img/projet1.jpg" target="_blank">Voir mon premier projet</a>     <i class="fa-regular fa-image" style="color: #B197FC;"></i>
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ $(document).ready(function () {
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Projet 2</h5>
-                                <p class="card-text">Description de mon deuxième projet.</p>
-                                <a href="assets/videos/animaux.mp4" target="_blank">Voir mon deuxième projet</a>
+                                <p class="card-text">Pour ce projet, j'ai développé une galerie interactive en HTML, CSS et JavaScript, intégrant un design moderne et responsive. La galerie présente des cartes d'animaux en sépia qui, grâce à un effet au survol, s'agrandissent légèrement et passent en couleur pour captiver l'utilisateur. J'ai utilisé des animations CSS et des transitions fluides pour créer une expérience visuelle immersive. Chaque carte est organisée de manière harmonieuse et responsive, s'adaptant à différents formats d'écran. Le titre principal et le fond sombre ont été choisis pour mettre en valeur les images tout en respectant une esthétique cohérente. Ce projet met en avant une expérience utilisateur engageante et un design épuré, adapté à un public intéressé par la nature et l'interactivité.</p>
+                                <a href="assets/videos/animaux.mp4" target="_blank">Voir mon deuxième projet</a> <i class="fa-solid fa-video" style="color: #B197FC;"></i>
                             </div>
                         </div>
                     </div>
@@ -38,8 +38,8 @@ $(document).ready(function () {
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Projet 3</h5>
-                                <p class="card-text">Description de mon troisième projet.</p>
-                                <a href="assets/videos/projet-films.mp4" target="_blank">Voir mon troisième projet</a>
+                                <p class="card-text">Pour ce projet, j'ai développé une plateforme interactive de présentation de films en HTML, CSS et JavaScript. Les films sont affichés sous forme de cartes dynamiques, chacune permettant à l'utilisateur d'interagir via une icône "j'aime" en forme de pouce. Lorsqu'un utilisateur clique sur un pouce, celui-ci devient bleu pour indiquer que le film a été aimé, et cette interaction est gérée avec JavaScript pour offrir une expérience utilisateur fluide et engageante. De plus, des animations fluides mettent en valeur les cartes lors du survol, renforçant l'interactivité. Le site est entièrement responsive, s'adaptant aux différentes tailles d'écran, et utilise un design moderne et cohérent pour immerger l'utilisateur dans une thématique cinématographique attrayante.</p>
+                                <a href="assets/videos/projet-films.mp4" target="_blank">Voir mon troisième projet</a>  <i class="fa-solid fa-video" style="color: #B197FC;"></i>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 4</h5>
                                 <p class="card-text">Description de mon quatrième projet.</p>
-                                <a href="assets/videos/les-artistes-peintres.mp4" target="_blank">Voir mon quatrième projet</a>
+                                <a href="assets/videos/les-artistes-peintres.mp4" target="_blank">Voir mon quatrième projet</a>  <i class="fa-solid fa-video" style="color: #B197FC;"></i>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 5</h5>
                                 <p class="card-text">Pour ce projet, j'ai développé une page web en HTML intégrant une navigation fixe et responsive avec Bootstrap, des ancres pour un accès rapide aux sections (Accueil, Membres, Discographie, Agenda, Contact), ainsi qu'un carrousel d'images et des cartes Bootstrap organisées de manière responsive pour représenter les membres du groupe. J'ai également ajouté un tableau des dates de concert avec un design harmonisé au reste du site, incluant divers effets. Enfin, un formulaire avec des champs obligatoires et une validation d'adresse e-mail conforme au type HTML5 a été intégré, garantissant une expérience utilisateur fluide sur mobile.</p>
-                                <a href="assets/videos/ACDC.mp4" target="_blank">Voir mon cinquième projet</a>
+                                <a href="assets/videos/ACDC.mp4" target="_blank">Voir mon cinquième projet</a>  <i class="fa-solid fa-video" style="color: #B197FC;"></i>
                             </div>
                         </div>
                     </div>
