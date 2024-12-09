@@ -1,0 +1,13 @@
+// Mixins pour les bordures arrondies
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+  }
+  
+  // Mixin pour les transitions
+  @mixin transition($property, $duration) {
+    transition: $property $duration ease-in-out;
+  }
+  
+  

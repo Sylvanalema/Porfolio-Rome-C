@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--video background-->
+    <div class="main-container">
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="asset/video/Peinture22.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+    </div>
+    <header>
+        <!--navbar-->
+        <nav class="navbar">
+            <img src="asset/img/logo.jpg" alt="Logo" class="logoc">
+            <ul class="nav-links">
+                <li><a href="index.html" id="home-link">Accueil</a></li>
+                <li><a href="index.html?page=realisations" id="show-realisations">Réalisations</a></li>
+                <li><a href="index.html?page=cv" id="show-cv">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="legal-notice.html">Mentions légales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Section d'Accueil -->
+    <section id="home-section">
+        <div class="container mt-5">
+            <div class="card">
+                <h1>Bienvenue sur mon portfolio</h1>
+                <p>Je suis ravie de vous accueillir ici. Je m'appelle Cindy et je suis actuellement en formation de Développeur Web et Web Mobile (DWWM). À 37 ans, j'ai décidé de me reconvertir et de poursuivre mes études dans ma passion pour le web mais aussi pour le design et l'innovation.</p>
+            </div>
+            <div class="card">
+                <h2>Ce que vous trouverez ici</h2>
+                <p>Sur ce site, je partagerai mes projets, mes apprentissages et mes réflexions sur le développement web et le design. Je souhaite créer un espace où je peux documenter mon évolution, mais aussi échanger avec d'autres passionnés qui, comme moi, explorent le monde numérique.</p>
+            </div>
+            <div class="card">
+                <h2>Rejoignez-moi dans cette aventure !</h2>
+                <p>N'hésitez pas à explorer mon site, à suivre mes réalisations et à partager vos commentaires. Je suis impatiente de recevoir vos retours et d'échanger avec vous sur cette passion commune. Merci de votre visite et bonne exploration !</p>
+            </div>
+        </div>
+    </section>
+    <!-- Conteneur dynamique où les autres sections seront injectées -->
+    <div id="dynamic-content" class="mt-4">
+        <!-- Les sections dynamiques "Réalisations" et "CV" seront ajoutées ici elles sont mises dans le js -->
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Développeur Web | Designer | Freelance</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/cindy-rome-ba3871216/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/Sylvanalema?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:rome-cindy@hotmail.com">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Cindy Rome. Tous droits réservés.</p>
+        </div>
+    </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

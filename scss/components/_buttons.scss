@@ -1,0 +1,14 @@
+.btn {
+    display: inline-block;
+    padding: $padding-small $padding-medium;
+    background-color: $primary-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+  
