@@ -1,0 +1,20 @@
+// Import des bases
+@use 'base/_variables';
+@use 'base/_reset';
+@use 'base/_mixins';
+@use 'base/media-queries';
+
+// Import des layouts
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/grid';
+
+// Import des composants
+@use 'components/cards';
+@use 'components/buttons';
+@use 'components/forms';
+
+// Import des pages spécifiques
+@use 'pages/home';
+@use 'pages/projects';
+@use 'pages/contact';
