@@ -42,26 +42,31 @@ header {
   padding: 20px;
 }
 header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between; /* Sépare la zone logo et les liens */
+    align-items: center;
+    padding: 10px 20px;
 }
 header .navbar .logoc {
   width: 200px;
   height: auto;
 }
-header .navbar .nav-links {
-  list-style: none;
-  display: flex;
+.nav-links {
+  display: flex; /* Les liens sont alignés horizontalement */
+  list-style: none; /* Supprime les puces */
+  margin: 0;
+  padding: 0;
+  gap: 15px; /* Espacement entre les liens */
 }
 header .navbar .nav-links li {
   margin: 0 10px;
 }
 header .navbar .nav-links li a {
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s;
-  font-size: 20px;
+    text-decoration: none; /* Supprime le soulignement */
+    color: white; /* Couleur du texte */
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 header .navbar .nav-links li a:hover {
   color: #6c16ac;
@@ -364,3 +369,15 @@ li {
   background-color: #9c27b0; /* Couleur plus claire au survol */
   transform: scale(1.05); /* Légère animation d'agrandissement */
 }
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column; /* Empile le logo et les liens */
+      align-items: center;
+  }
+
+  .nav-links {
+      flex-direction: column; /* Empile les liens verticalement */
+      gap: 10px; /* Réduit l'espacement entre les liens */
+  }
+  
