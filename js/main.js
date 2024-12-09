@@ -21,7 +21,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 1</h5>
                                 <p class="card-text">Dans le cadre de ce projet, j'ai conçu sur Figma le wireframe d'un site fictif. Ce prototype comprend une page de connexion dédiée aux clients, une page de contact, une page présentant les produits, ainsi qu'une interface interne destinée à la gestion des produits</p>
-                                <a href="asset/img/projet1.jpg" target="_blank">Voir mon premier projet</a>
+                                <a href="assets/img/projet1.jpg" target="_blank">Voir mon premier projet</a>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 2</h5>
                                 <p class="card-text">Description de mon deuxième projet.</p>
-                                <a href="asset/video/animaux.mp4" target="_blank">Voir mon deuxième projet</a>
+                                <a href="assets/videos/animaux.mp4" target="_blank">Voir mon deuxième projet</a>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 3</h5>
                                 <p class="card-text">Description de mon troisième projet.</p>
-                                <a href="asset/video/projet-films.mp4" target="_blank">Voir mon troisième projet</a>
+                                <a href="assets/videos/projet-films.mp4" target="_blank">Voir mon troisième projet</a>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 4</h5>
                                 <p class="card-text">Description de mon quatrième projet.</p>
-                                <a href="asset/video/les-artistes-peintres.mp4" target="_blank">Voir mon quatrième projet</a>
+                                <a href="assets/videos/les-artistes-peintres.mp4" target="_blank">Voir mon quatrième projet</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ $(document).ready(function () {
                             <div class="card-body">
                                 <h5 class="card-title">Projet 5</h5>
                                 <p class="card-text">Pour ce projet, j'ai développé une page web en HTML intégrant une navigation fixe et responsive avec Bootstrap, des ancres pour un accès rapide aux sections (Accueil, Membres, Discographie, Agenda, Contact), ainsi qu'un carrousel d'images et des cartes Bootstrap organisées de manière responsive pour représenter les membres du groupe. J'ai également ajouté un tableau des dates de concert avec un design harmonisé au reste du site, incluant divers effets. Enfin, un formulaire avec des champs obligatoires et une validation d'adresse e-mail conforme au type HTML5 a été intégré, garantissant une expérience utilisateur fluide sur mobile.</p>
-                                <a href="asset/video/ACDC.mp4" target="_blank">Voir mon cinquième projet</a>
+                                <a href="assets/videos/ACDC.mp4" target="_blank">Voir mon cinquième projet</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ $(document).ready(function () {
                                 <li>Dynamique</li>
                             </ul>
                             <div class="text-center mt-4">
-                                <a href="asset/document/cv-Rome.pdf" target="_blank" class="btn btn-primary btn-lg">Voir mon CV complet</a>
+                                <a href="assets/document/cv-Rome.pdf" target="_blank" class="btn btn-primary btn-lg">Voir mon CV complet</a>
                             </div>
                         </div>
                     </div>
