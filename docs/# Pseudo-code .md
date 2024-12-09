@@ -1,41 +1,51 @@
-# Pseudo-code de mon projet Portfolio
+Démarrer le script
 
-## Fonctionnalité : Navigation dynamique entre les sections
+Lorsque le document est prêt :
+    Afficher message "Script chargé avec succès"
 
-1. Lorsque la page se charge :
-    - Masquer toutes les sections dynamiques (réalisations, CV, contact).
+    Définir fonction `showSection(section)` :
+        Masquer toutes les sections
+        
+        Si `section` est 'realisations' :
+            Afficher les projets (Projets 1, 2, 3, 4, 5)
+        Sinon si `section` est 'cv' :
+            Afficher le CV avec compétences, diplômes, expériences
+        Sinon :
+            Afficher la section d'accueil
 
-2. Lorsque l'utilisateur clique sur le lien "Accueil" :
-    - Masquer toutes les sections dynamiques.
-    - Afficher le contenu principal de la page d'accueil (titre, description, etc.).
+    Définir gestionnaire d'événement pour clic sur `#home-link` :
+        Prévenir comportement par défaut
+        Mettre à jour l'URL avec 'index.html'
+        Appeler `showSection('home-section')`
 
-3. Lorsque l'utilisateur clique sur le lien "Réalisations" :
-    - Masquer le contenu principal de la page d'accueil.
-    - Afficher les réalisations avec un contenu dynamique (projets, images, vidéos).
+    Définir gestionnaire d'événement pour clic sur `#show-realisations` :
+        Prévenir comportement par défaut
+        Mettre à jour l'URL avec 'index.html?page=realisations'
+        Appeler `showSection('realisations')`
 
-4. Lorsque l'utilisateur clique sur le lien "CV" :
-    - Masquer le contenu principal de la page d'accueil.
-    - Afficher le contenu du CV (compétences, diplômes, expériences professionnelles, etc.).
+    Définir gestionnaire d'événement pour clic sur `#show-cv` :
+        Prévenir comportement par défaut
+        Mettre à jour l'URL avec 'index.html?page=cv'
+        Appeler `showSection('cv')`
 
-5. Lorsque l'utilisateur clique sur le lien "Contact" :
-    - Afficher la section de contact avec un formulaire (nom, email, message).
+    Récupérer la section à partir de l'URL (`page` paramètre)
+    Si `section` existe :
+        Appeler `showSection(section)`
+    Sinon :
+        Appeler `showSection('home-section')`
 
-6. Lorsqu'une section est affichée :
-    - Assurez-vous que le contenu dynamique soit chargé (HTML ou données depuis un fichier).
+    Définir fonction de validation de formulaire `validateForm()` :
+        Initialiser `isValid` à vrai
+        Vérifier chaque champ (prénom, nom, email, message)
+        Si un champ est invalide, définir `isValid` à faux et afficher le message d'erreur
+        
+        Retourner `isValid`
 
-## Fonctionnalité : Affichage dynamique avec jQuery
+    Définir gestionnaire d'événement pour soumission de `#contactForm` :
+        Prévenir comportement par défaut
+        Si `validateForm()` retourne vrai :
+            Afficher message de succès et réinitialiser le formulaire
+        Sinon :
+            Afficher message d'erreur
 
-1. Initialiser la page avec jQuery :
-    - Cacher toutes les sections dynamiques à l'ouverture de la page.
-    - Afficher la section de contenu d'accueil par défaut.
-
-2. Lorsque l'utilisateur clique sur un des liens (réalisations, CV, contact) :
-    - Empêcher l'action par défaut du lien (ne pas recharger la page).
-    - Cacher le contenu précédent.
-    - Charger et afficher la nouvelle section dynamique.
-    - Afficher la section dynamique correspondante avec son contenu HTML.
-
-## Fonctionnalité : Navigation avec URL (optionnel)
-1. Lorsque l'utilisateur navigue vers une nouvelle URL (par exemple `contact.html`) :
-    - Vérifier l'URL.
-    - En fonction de l'URL, charger et afficher la section correspondante (Réalisations, CV, ou Contact).
+Fin du script
