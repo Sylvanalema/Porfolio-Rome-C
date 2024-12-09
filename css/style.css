@@ -1,11 +1,10 @@
-
-
 @font-face {
   font-family: 'Tinos';
   src: url('/font/Tinos-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 /* Conteneur de la vidéo */
 .video-background {
   position: fixed;
@@ -37,20 +36,22 @@ body {
 
 /* Conteneur navbar */
 header {
-  
   color: white;
   padding: 20px;
 }
+
 header .navbar {
-    display: flex;
-    justify-content: space-between; /* Sépare la zone logo et les liens */
-    align-items: center;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Sépare la zone logo et les liens */
+  align-items: center;
+  padding: 10px 20px;
 }
+
 header .navbar .logoc {
   width: 200px;
   height: auto;
 }
+
 .nav-links {
   display: flex; /* Les liens sont alignés horizontalement */
   list-style: none; /* Supprime les puces */
@@ -58,28 +59,33 @@ header .navbar .logoc {
   padding: 0;
   gap: 15px; /* Espacement entre les liens */
 }
+
 header .navbar .nav-links li {
   margin: 0 10px;
 }
+
 header .navbar .nav-links li a {
-    text-decoration: none; /* Supprime le soulignement */
-    color: white; /* Couleur du texte */
-    font-size: 16px;
-    padding: 5px 10px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none; /* Supprime le soulignement */
+  color: white; /* Couleur du texte */
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 header .navbar .nav-links li a:hover {
   color: #6c16ac;
 }
-/*footer*/
+
+/* Footer */
 footer {
   color: white;
   text-align: center;
   font-size: 16px;
   padding: 10px 0;
-  position: relative;
-  bottom: 0;
+  
   width: 100%;
+  z-index: 0; /* Z-index bas pour être en dessous */
+  margin-top: 30px;
 }
 
 footer .social-links {
@@ -87,6 +93,7 @@ footer .social-links {
   display: flex;
   justify-content: center;
 }
+
 footer .social-links a {
   text-decoration: none;
   color: white;
@@ -94,6 +101,7 @@ footer .social-links a {
   font-size: 1.2em;
   transition: color 0.3s;
 }
+
 footer .social-links a:hover {
   color: #6c16ac;
 }
@@ -106,30 +114,31 @@ footer .social-links a:hover {
 }
 
 .card {
-  background-color: #1102023f; 
-  border: 1px solid #1d1d0b63; 
+  background-color: #1102023f;
+  border: 1px solid #1d1d0b63;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce */
   margin: 20px 0;
 }
-.card h1 {
-  color: #6c16ac;
-  text-align: center;
-  font-size: 40px;
-}
+
+.card h1,
 h2, h3 {
   color: #6c16ac;
   text-align: center;
   font-size: 30px;
- 
 }
+
+.card h1 {
+  font-size: 40px;
+}
+
 .card h5 {
   color: white;
   font-size: 20px;
-  
 }
-.card p{
+
+.card p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -140,122 +149,47 @@ h2, h3 {
   text-decoration: none;
   transition: color 0.3s;
 }
+
 .card a:hover {
   color: rgb(240, 141, 210);
-  transition: color 0.3s;
 }
+/*boutons*/
 .btn {
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
-  background-color: #9c27b0;;
+  background-color: #9c27b0;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
-  margin: 0 auto;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   text-align: center;
   width: 100%;
   max-width: 200px;
 }
+
 .btn:hover {
   background-color: #8b3375;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.form input,
-.form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-.form button {
-  background-color: #e382d8;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-.form button:hover {
-  background-color: #333;
-}
-
-#presentation {
-  background-color: #f4f4f4;
-  padding: 40px;
-}
-#presentation .flip-card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#projets {
-  background-color: #f4f4f4;
-  padding: 40px;
-}
-#projets .projets-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-#projets .projets-container .projet {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-#projets .projets-container .projet img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: white;
-  margin-left: 15px;
-  
-}	
-/*mentions légales*/
-.legal-notice h2{
-  text-align: left;
-}
-
-.legal-notice h1{
-  text-align: center;
-} 
-.legal-notice p{
-  text-align: justify;
-  
-
-}
-/*contact*/
-#contact {
-  background-color: #f4f4f4;
-  padding: 40px;
-}  
+/* Formulaire de contact */
+.form,
 #contact .contact-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
+.form input,
+.form textarea,
 #contact .contact-form input,
 #contact .contact-form textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+.form button,
 #contact .contact-form button {
   background-color: #e382d8;
   color: white;
@@ -265,14 +199,116 @@ li {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
+.form button:hover,
 #contact .contact-form button:hover {
   background-color: #333;
 }
 
+#contactForm {
+  background-color: rgba(249, 249, 249, 0.418);
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 0 auto; 
+ 
+  
+}
 
+#contactForm .form-label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#contactForm .form-control {
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contactForm .form-control:focus {
+  border-color: #6a1b9a;
+  box-shadow: 0 0 5px rgba(106, 27, 154, 0.5);
+  outline: none;
+}
+
+#formResponse {
+  font-size: 1.1em;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+#formResponse .alert {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0;
+}
+
+#formResponse .alert-success {
+  background-color: #4caf50;
+}
+
+#formResponse .alert-danger {
+  background-color: #f44336;
+}
+
+#contactForm .btn {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#contactForm .btn:hover {
+  background-color: #9c27b0;
+  transform: scale(1.05);
+}
+
+/* Section Présentation */
+#presentation,
+#projets {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+#presentation .flip-card,
+#projets .projets-container .projet {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#projets .projets-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+#projets .projets-container .projet img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
 /* Masquer toutes les sections au départ */
-#realisations, #cv {
+#realisations,
+#cv {
   display: none;
 }
 
@@ -287,97 +323,63 @@ li {
   display: block;
 }
 
-/* Personnalisation du formulaire */
-/* Style du formulaire */
-#contactForm {
-  background-color: rgba(249, 249, 249, 0.418); /* Fond gris clair avec transparence */
-  border-radius: 8px; /* Coins arrondis */
-  padding: 30px; /* Espacement interne */
-  max-width: 600px; /* Limiter la largeur maximale */
-  width: 100%; /* Prendre toute la largeur possible tout en respectant la largeur maximale */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère autour du formulaire */
-  transition: all 0.3s ease; /* Animation pour les interactions */
-}
-
-/* Style des labels (étiquettes des champs) */
-#contactForm .form-label {
-  font-weight: bold;
-  color: #333; /* Couleur sombre pour un bon contraste */
-  margin-bottom: 5px; /* Espacement entre le label et le champ */
-}
-
-/* Style des champs de saisie */
-#contactForm .form-control {
-  border-radius: 5px; /* Coins arrondis pour les champs */
-  padding: 12px; /* Plus d'espace à l'intérieur des champs */
-  width: 100%; /* Prendre toute la largeur disponible */
-  margin-bottom: 15px; /* Espacement entre les champs */
-  border: 1px solid #ccc; /* Bordure subtile pour chaque champ */
-  font-size: 1em;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition fluide lors de l'interaction */
-}
-
-/* Effet au focus sur les champs */
-#contactForm .form-control:focus {
-  border-color: #6a1b9a; /* Changer la couleur de la bordure au focus */
-  box-shadow: 0 0 5px rgba(106, 27, 154, 0.5); /* Légère ombre pour l'input focus */
-  outline: none; /* Retirer le contour par défaut */
-}
-
-/* Style du message de réponse (confirmation ou erreur) */
-#formResponse {
-  font-size: 1.1em;
+/* Mentions légales */
+.legal-notice h1 {
   text-align: center;
-  border-radius: 5px; /* Coins arrondis pour les messages */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
 }
 
-/* Style des alertes (confirmation ou erreur) */
-#formResponse .alert {
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 5px;
-  color: #fff; /* Texte blanc */
-  margin: 0;
+.legal-notice h2 {
+  text-align: left;
 }
 
-/* Alertes de succès */
-#formResponse .alert-success {
-  background-color: #4caf50; /* Vert pour les succès */
+.legal-notice p {
+  text-align: justify;
 }
 
-/* Alertes d'erreur */
-#formResponse .alert-danger {
-  background-color: #f44336; /* Rouge pour les erreurs */
+/* Liens de la navbar et footer */
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: white;
+  margin-left: 15px;
 }
 
-/* Bouton Envoyer */
-#contactForm .btn {
-  background-color: #6a1b9a; /* Couleur du fond */
-  color: white; /* Texte blanc */
-  padding: 12px 25px; /* Taille du bouton */
-  border: none; /* Pas de bordure */
-  border-radius: 5px; /* Coins arrondis */
-  font-size: 1.1em;
-  cursor: pointer; /* Changer le curseur pour indiquer l'interaction */
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-/* Effet au survol du bouton */
-#contactForm .btn:hover {
-  background-color: #9c27b0; /* Couleur plus claire au survol */
-  transform: scale(1.05); /* Légère animation d'agrandissement */
-}
-
+/* Media Queries */
 @media (max-width: 768px) {
   .navbar {
-      flex-direction: column; /* Empile le logo et les liens */
-      align-items: center;
-  }
-
-  .nav-links {
-      flex-direction: column; /* Empile les liens verticalement */
-      gap: 10px; /* Réduit l'espacement entre les liens */
+    flex-direction: column; /* Empile le logo et les liens */
+    align-items: center;
   }
   
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr; /* Une seule colonne sur petit écran */
+  }
+  #contactForm {
+    padding: 25px;
+  }
+}
+
+@media (min-width: 769px) {
+  #contactForm {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #contactForm {
+    padding: 20px;
+  }
+
+  .form input, .form textarea {
+    font-size: 14px;  /* Ajustez la taille des textes pour plus de lisibilité sur mobile */
+  }
+}
