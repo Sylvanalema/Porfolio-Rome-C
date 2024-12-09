@@ -103,7 +103,7 @@ $(document).ready(function () {
                                 <li>Dynamique</li>
                             </ul>
                             <div class="text-center mt-4">
-                                <a href="assets/document/cv-Rome.pdf" target="_blank" class="btn btn-primary btn-lg">Voir mon CV complet</a>
+                                <a href="assets/documents/cv-Rome.pdf" target="_blank" class="btn btn-primary btn-lg">Voir mon CV complet</a>
                             </div>
                         </div>
                     </div>
