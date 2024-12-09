@@ -1,4 +1,4 @@
-# Porfolio-Rome-C
+# Portfolio-Rome-C
 ![alt text](logo.jpg)
 
 # Mon Application - Portfolio de Développeur Web
