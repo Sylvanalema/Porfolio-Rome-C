@@ -61,7 +61,7 @@ header .navbar .nav-links li {
 header .navbar .nav-links li a {
   text-decoration: none; /* Supprime le soulignement */
   color: white; /* Couleur du texte */
-  font-size: 18px;
+  font-size: 20px;
   padding: 5px 10px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -101,9 +101,14 @@ main {
   border-radius: 10px;  /* arrondir les coins */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* ombre plus marquée */
   overflow: hidden;  /* masque les débordements */
-  background-color: #e0d7d769;
- 
-
+  background-color: #4b434383;
+  
+  
+}
+.card1 p {
+  font-size: 23px;
+  color: white;
+  text-align: center;
 }
 .card1 h1 {
   color: #4f0885;
