@@ -1,5 +1,5 @@
 # Portfolio-Rome-C
-![alt text](logo.jpg)
+![logo du projet](assets/img/logo.jpg)
 
 # Mon Application - Portfolio de Développeur Web
 
