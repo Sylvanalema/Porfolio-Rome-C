@@ -68,3 +68,38 @@ Notes supplémentaires :
 
     Il pourrait être utile de vérifier si ce problème est lié à des paramètres globaux ou locaux de Git.
     Penser à vérifier les variables d'environnement liées à Git et VS Code.
+
+# Problème de compilation SCSS en CSS et du lien Bootstrap qui ne fonctionne pas
+
+## Description
+
+J'ai rencontré un problème lors de la compilation de mes fichiers SCSS en CSS. De plus, l'intégration de Bootstrap via un lien CDN n'a pas fonctionné correctement, ce qui m'a obligé à enlever le lien pour résoudre l'affichage du projet.
+
+## Détails du problème :
+
+### 1. **Compilation SCSS en CSS** :
+- Lorsque j'ai essayé de compiler mon fichier SCSS en CSS, je n'ai pas obtenu le résultat attendu. Aucune erreur n'a été retournée, mais le fichier CSS généré ne contient pas les styles que j'avais définis dans SCSS.
+- **Solution temporaire** : J'ai dû enlever les styles SCSS et revenir aux fichiers CSS classiques pour que la page fonctionne correctement.
+
+### 2. **Bootstrap via CDN** :
+- J'ai essayé d'intégrer Bootstrap à l'aide d'un lien CDN, mais les styles n'ont pas été appliqués comme prévu. Aucune des classes de Bootstrap (comme `container`, `btn`, etc.) n'a eu d'effet.
+- **Solution temporaire** : J'ai dû enlever le lien CDN de Bootstrap et revenir à une version locale ou utiliser une autre méthode d'intégration.
+
+## Environnement de développement :
+- **OS** : [Exemple : Windows 10, macOS, Linux]
+- **Éditeur de code** : [Exemple : VS Code, Sublime Text, etc.]
+- **Compilateur SCSS** : [Exemple : Node-sass, Dart-sass, etc.]
+- **Version de Bootstrap** : [Exemple : Bootstrap 5.x]
+  
+## Étapes pour reproduire :
+1. Essayer de compiler le fichier SCSS en CSS avec la commande appropriée.
+2. Ajouter le lien CDN de Bootstrap dans le fichier HTML.
+3. Observer que les styles SCSS ne sont pas appliqués et que Bootstrap ne fonctionne pas.
+
+## Attendu :
+- Le fichier SCSS devrait être compilé correctement en CSS.
+- Bootstrap devrait être chargé via le lien CDN et appliquer les styles au projet.
+
+## Résultat observé :
+- Aucun style compilé depuis SCSS n'apparaît.
+- Le lien CDN de Bootstrap ne fonctionne pas et les styles Bootstrap ne sont pas appliqués.
