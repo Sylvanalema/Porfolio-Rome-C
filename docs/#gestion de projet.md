@@ -23,9 +23,10 @@
 ## 3. Périmètre du Projet
 - **Pages à développer** :
   - Page d'accueil.
-  - Page "À propos".
-  - Page "Projets".
+  - Page dynamique "réalisations".
+  - Page dynamique "cv".
   - Page "Contact".
+  - page "mentions légales".
 - **Technologies utilisées** :
   - **Frontend** : HTML, CSS, JavaScript.
   - **Outils** : VS Code, Figma, Git/GitHub.

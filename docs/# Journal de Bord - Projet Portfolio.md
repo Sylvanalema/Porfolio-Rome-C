@@ -87,16 +87,18 @@
 
 - **Tâches accomplies** :
   - Création du formulaire de contact avec validation en JavaScript.
-  - Mise en place des pages restantes (contact).
+  - Mise en place des pages restantes Mentions légales.
   - Mise à jour de la documentation avec les dernières informations.
 
 - **Difficultés rencontrées** :
   - Problèmes de validation des champs obligatoires dans le formulaire de contact.
   - De nouveaux problèmes avec Git, où j’ai dû déplacer les fichiers du projet pour contourner les erreurs de synchronisation.
+  - j'ai refait un projet git pour reprendre correctement le projet.
 
 - **Solutions mises en place** :
   - Correction des erreurs de validation en ajustant les conditions du script JavaScript.
   - Déplacement des fichiers du projet dans un autre répertoire pour continuer à travailler pendant que je résous les problèmes Git.
+  création d'un nouveau projet git.
 
 - **Prochaines étapes** :
   - Tester l’intégralité du site et effectuer les tests sur différents appareils.
@@ -116,6 +118,7 @@
 - **Difficultés rencontrées** :
   - Quelques problèmes d’affichage sur Firefox, notamment sur la section "Projets".
   - Temps passé à résoudre les derniers bugs liés à Git.
+  la minification du code javascript n'a pas fonctionnée. je dois refaire mon scss la prochaine fois. 
 
 - **Solutions mises en place** :
   - Ajustement des propriétés CSS spécifiques aux navigateurs avec des préfixes nécessaires.
@@ -128,5 +131,5 @@
 
 ## **Bilan de la Semaine**
 - **Objectifs atteints** : Site web fonctionnel, responsive et optimisé.
-- **Difficultés rencontrées** : Problèmes de compatibilité avec certains navigateurs, problèmes persistants avec Git, et bugs dans le JavaScript.
+- **Difficultés rencontrées** : Problèmes de compatibilité avec certains navigateurs, problèmes reglé avec git, mais toujours des bugs niveau scss.
 - **Prochaines étapes** : Finalisation de la mise en ligne et préparation pour la présentation finale du projet le mercredi 11/12/2024.
