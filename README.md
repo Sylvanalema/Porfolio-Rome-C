@@ -18,7 +18,6 @@ Ce projet a été développé en utilisant les technologies suivantes :
 - **HTML5** : Structure du site web.
 - **CSS3** (avec Flexbox et Grid) : Mise en page et styles modernes.
 - **JavaScript** : Pour l'interactivité et les animations.
-- **PHP** (ou Node.js si applicable) : Pour le traitement du formulaire de contact.
 - **Vidéos et images optimisées** : Utilisation de vidéos de fond et d'images haute qualité.
 
 ## Prérequis
@@ -36,8 +35,9 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 Commencez par cloner ce repository sur votre machine locale. Ouvrez votre terminal et tapez la commande suivante :
 ```bash
 git clone https://github.com/ton-utilisateur/ton-portfolio.git
+```
 
-2. Installation des dépendances (si vous utilisez Node.js)
+### 2. Installation des dépendances (si vous utilisez Node.js)
 
 Si le projet utilise Node.js pour les dépendances (par exemple pour la gestion des scripts JS ou le traitement du formulaire), vous devez installer les packages nécessaires. Dans le répertoire de votre projet, exécutez la commande suivante :
 
@@ -55,19 +55,38 @@ Structure du projet
 
 Voici un aperçu de la structure des dossiers et fichiers dans ce projet :
 
-/ton-portfolio
-├── /assets
-│   ├── /images      # Contient toutes les images du projet
-│   └── /videos      # Contient toutes les vidéos de fond ou autres médias
-├── /css
-│   └── style.css    # Fichier CSS principal pour la mise en page et le style
-├── /js
-│   └── script.js    # Fichier JavaScript pour l'interactivité et animations
-├── /php
-│   └── contact.php  # Script PHP pour le traitement du formulaire de contact
-├── index.html       # Page d'accueil avec le contenu principal
-├── about.html       # Page à propos avec le profil du développeur
-└── contact.html     # Page avec le formulaire de contact
+
+Portfolio/
+
+├── pages/
+│   ├── index.html         # Page "À propos"
+│        ├── réalisations  # Page dynamique"Réalisations"
+│        ├── cv            # page dynamique "cv"
+│   ├── contact.html       # Page "Contact"
+├── scss/
+│   ├── main.scss          # Point d'entrée pour compiler tous les fichiers SCSS
+│   ├── _variables.scss    # Variables globales (couleurs, polices, etc.)
+│   ├── _mixins.scss       # Mixins réutilisables
+│   ├── _base.scss         # Styles de base (reset, typographie)
+│   ├── _layout.scss       # Styles des mises en page (grilles, containers)
+│   ├── _components.scss   # Styles des composants (boutons, cartes, etc.)
+├── js/
+│   ├── script.js          # Scripts principaux
+│   ├── frameworks			
+│   ├── Librairie
+├── assets/
+│   ├── images/            # Images utilisées dans le projet
+│   ├── videos/            # vidéos uitilisés dans le projet
+│   ├── fonts/             # Polices personnalisées
+│   ├── documents/         # Cv
+├── docs/
+│   ├── Algorithme.md      #
+│   ├── Pseudo-code.md     # Documentation
+│   ├── Journal-de-bord.md # 
+│   ├── gestion-de-projet.md  # Documentation
+│   ├── isue.md            # Documentation
+├── README.md          # Documentation
+├── licence.md         #
 
 Comment utiliser
 Accéder aux projets
