@@ -1,0 +1,27 @@
+footer {
+  background-color: $secondary-color;
+  color: white;
+  padding: $padding-medium;
+  text-align: center;
+  width: 100%; // Assure que le footer prend toute la largeur de la page
+  position: relative;  // Position normale (non-fixe), assure que le footer reste en bas
+  margin-top: auto; // Pousse le footer en bas de la page
+
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      font-size: 1.2em;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}

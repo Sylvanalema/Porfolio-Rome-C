@@ -1,10 +1,9 @@
-# Portfolio-Rome-C
+# Porfolio-Rome-C
 ![logo du projet](assets/img/logo.jpg)
-
 # Mon Application - Portfolio de Développeur Web
 
 ## Description
-Cette application est un portfolio en ligne destiné à présenter mes projets. L'objectif est de fournir un espace interactif et professionnel où les visiteurs peuvent découvrir les réalisations, en savoir plus sur l'expertise du développeur, et entrer en contact directement via un formulaire de contact.
+Cette application est un portfolio en ligne destiné à présenter les projets d'un développeur web. L'objectif est de fournir un espace interactif et professionnel où les visiteurs peuvent découvrir les réalisations, en savoir plus sur l'expertise du développeur, et entrer en contact directement via un formulaire de contact.
 
 ### Fonctionnalités principales :
 - **Page de présentation de projets** : Visualisez les projets réalisés avec des images et vidéos.
@@ -19,7 +18,6 @@ Ce projet a été développé en utilisant les technologies suivantes :
 - **HTML5** : Structure du site web.
 - **CSS3** (avec Flexbox et Grid) : Mise en page et styles modernes.
 - **JavaScript** : Pour l'interactivité et les animations.
-- **Node.js**
 - **Vidéos et images optimisées** : Utilisation de vidéos de fond et d'images haute qualité.
 
 ## Prérequis
@@ -37,6 +35,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 Commencez par cloner ce repository sur votre machine locale. Ouvrez votre terminal et tapez la commande suivante :
 ```bash
 git clone https://github.com/ton-utilisateur/ton-portfolio.git
+```
 
 ### 2. Installation des dépendances (si vous utilisez Node.js)
 
@@ -55,6 +54,7 @@ npm start
 Structure du projet
 
 Voici un aperçu de la structure des dossiers et fichiers dans ce projet :
+
 
 Portfolio/
 
@@ -87,8 +87,6 @@ Portfolio/
 │   ├── isue.md            # Documentation
 ├── README.md          # Documentation
 ├── licence.md         #
-
-
 
 Comment utiliser
 Accéder aux projets

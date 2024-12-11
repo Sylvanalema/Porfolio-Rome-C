@@ -1,0 +1,36 @@
+header {
+    background-color: $secondary-color;
+    color: white;
+    padding: $padding-medium;
+  
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .logoc {
+        width: 100px;
+        height: auto;
+      }
+  
+      .nav-links {
+        list-style: none;
+        display: flex;
+  
+        li {
+          margin: 0 $padding-small;
+  
+          a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+  
+            &:hover {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  

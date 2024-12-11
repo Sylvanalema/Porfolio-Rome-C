@@ -1,0 +1,24 @@
+#projets {
+    background-color: $background-color;
+    padding: $padding-large;
+  
+    .projets-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: $padding-medium;
+  
+      .projet {
+        background-color: white;
+        padding: $padding-medium;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  
